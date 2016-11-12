@@ -261,6 +261,21 @@ a.external:hover {
   line-height: 1.6;
 }
 
+.wayne-index-content {
+  margin-left: 30%;
+  padding-top: 80px;
+  padding-right: 15%;
+  background-color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+  .wayne-index-content {
+    margin-left: 0;
+    padding-right: 0;
+  }
+}
+
+
 
 
 
