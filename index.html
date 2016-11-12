@@ -3,4 +3,24 @@ layout: main
 ---
 
 
-Hello World ! B
+<ul class="wayne-artical-list">
+  {% for post in paginator.posts %}
+  <li>
+    <a href="{{ post.url }}" class="wayne-artical-title">{{ post.title }}</a>
+    <div class="wayne-artical-title-desc">{{ post.description }}</div>
+  </li>
+  {% endfor %}
+</ul>
+
+<div style="text-align: center; margin-bottom:60px;">
+    {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">上一页</a>
+    {% endif %}
+    {% if paginator.total_pages > 1 %}
+        <span stype="font-size:26px">|</span>
+    {% endif %}
+    {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">下一页</a>
+    {% endif %}
+<div>
+
