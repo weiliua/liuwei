@@ -1,1 +1,70 @@
 @import "default.css";
+
+.wayne-body-post {
+  background: #f5f5f5;
+}
+
+@media screen and (max-width: 767px) {
+  .wayne-body-post {
+    background: #fff;
+  }
+}
+
+.wayne-post-wrapper {
+  width: 900px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 0px 60px;
+}
+
+@media screen and (max-width: 767px) {
+  .wayne-post-wrapper {
+    width: 85%;
+    margin: 100px auto 50px;
+    padding: 0;
+  }
+}
+
+.wayne-post-title,
+.wayne-post-title a {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 6px;
+  color: #000;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+@media screen and (max-width: 767px) {
+  .wayne-post-title,
+  .wayne-post-title a {
+    font-size: 24px;
+  }
+}
+
+.wayne-post-title:hover,
+.wayne-post-title a:hover {
+  text-decoration: none;
+}
+
+.wayne-post-date {
+  text-align: center;
+  color: #999;
+  margin-bottom: 26px;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 767px) {
+  .wayne-post-date {
+    margin-bottom: 40px;
+  }
+}
+
+.content-tag {
+    padding: 2px 4px;
+    background: #006798;
+    color: #eee;
+}
+
+
+
