@@ -162,7 +162,7 @@ a.external:hover {
 /******* 通用 *******/
 
 
-.aside{
+.wayne-aside{
   position: fixed;
   top: 0;
   left: 0;
@@ -173,11 +173,23 @@ a.external:hover {
 }
 
 @media screen and (max-width: 767px) {
-  .index-wrapper .aside {
+  .wayne-aside {
     position: relative;
     width: 100%;
     height: 200px;
     max-width: none;
+  }
+}
+
+.wayne-info-card {
+  position: absolute;
+  margin-top: 70%;
+  text-align: center;
+  width: 100%;
+}
+@media screen and (max-width: 767px) {
+  .wayne-info-card {
+    margin-top: 70px;
   }
 }
 
