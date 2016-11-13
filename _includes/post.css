@@ -81,7 +81,11 @@
 }
 
 .wayne-post-content p + ul {
-  margin-top: -20px;
+  margin-top: -36px;
+}
+
+.wayne-post-content p + blockquote {
+  margin-top: -36px;
 }
 
 .wayne-post-content ul {
