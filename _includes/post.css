@@ -67,7 +67,7 @@
   color: #eee;
 }
 
-.wayne-content-wrapper h2 {
+.wayne-post-content h2 {
   font-size: 22px;
   font-weight: bold;
   margin-bottom: 25px;
@@ -75,33 +75,33 @@
   padding-bottom: 10px;
 }
 
-.wayne-content-wrapper p {
+.wayne-post-content p {
   margin-bottom: 40px;
   line-height: 20px;
 }
 
-.wayne-content-wrapper p + ul {
+.wayne-post-content p + ul {
   margin-top: -20px;
 }
 
-.wayne-content-wrapper ul {
+.wayne-post-content ul {
   margin-bottom: 25px;
   margin-left: 25px;
 }
 
-.wayne-content-wrapper ul li {
+.wayne-post-content ul li {
   margin-bottom: 5px;
   list-style: disc;
   line-height: 20px;
 }
 
-.wayne-content-wrapper blockquote {
+.wayne-post-content blockquote {
   margin-left: 25px;
   font-size: 14px;
   font-style: italic;
 }
 
-.wayne-content-wrapper h3 {
+.wayne-post-content h3 {
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 25px;
