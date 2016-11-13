@@ -46,16 +46,17 @@
   text-decoration: none;
 }
 
-.wayne-post-date {
+.wayne-post-prop {
   text-align: center;
   color: #999;
   margin-bottom: 26px;
   font-size: 14px;
+  line-height: 20px;
 }
 
 @media screen and (max-width: 767px) {
-  .wayne-post-date {
-    margin-bottom: 40px;
+  .wayne-post-prop {
+    margin-bottom: 26px;
   }
 }
 
