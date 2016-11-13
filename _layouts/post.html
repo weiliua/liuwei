@@ -12,14 +12,16 @@
   </head>
   <body class="wayne-body-post">
     <div class="wayne-post-wrapper">
-      <h1 class="wayne-post-title"><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h1>
-      <div class="wayne-post-date">
-        <p>{{ page.date|date:"%Y-%m-%d" }}</p>
-        <p>
-          {% for tag in site.tags %}
-            <a class="content-tag" href="/tags.html?tag={{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
-          {% endfor %}
-        </p>
+      <div class="wayne-post-title">
+        <h1><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h1>
+        <div class="wayne-post-date">
+          <p>{{ page.date|date:"%Y-%m-%d" }}</p>
+          <p>
+            {% for tag in site.tags %}
+              <a class="content-tag" href="/tags.html?tag={{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
+            {% endfor %}
+          </p>
+        </div>
       </div>
       {{ content }}
     </div>
