@@ -50,7 +50,7 @@
   text-align: center;
   color: #999;
   margin-bottom: 26px;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 20px;
 }
 
@@ -61,9 +61,10 @@
 }
 
 .content-tag {
-    padding: 2px 4px;
-    background: #006798;
-    color: #eee;
+  padding: 2px 4px;
+  font-size: 14px;
+  background: #006798;
+  color: #eee;
 }
 
 
