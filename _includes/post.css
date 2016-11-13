@@ -67,5 +67,46 @@
   color: #eee;
 }
 
+.wayne-content-wrapper h2 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+}
+
+.wayne-content-wrapper p {
+  margin-bottom: 40px;
+  line-height: 20px;
+}
+
+.wayne-content-wrapper p + ul {
+  margin-top: -20px;
+}
+
+.wayne-content-wrapper ul {
+  margin-bottom: 25px;
+  margin-left: 25px;
+}
+
+.wayne-content-wrapper ul li {
+  margin-bottom: 5px;
+  list-style: disc;
+  line-height: 20px;
+}
+
+.wayne-content-wrapper blockquote {
+  margin-left: 25px;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.wayne-content-wrapper h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  color: #222;
+}
+
 
 
