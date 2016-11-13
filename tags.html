@@ -6,7 +6,7 @@ layout: main
   {% for tag in site.tags %}
     {% for post in tag[1] %}
       <li class="tag_{{ tag[0] }}" style="display:none;">
-        <a href="{{ post.url }}" class="title">{{ post.title }}</a>
+        <a href="{{ post.url }}" class="wayne-artical-title">{{ post.title }}</a>
         <div class="wayne-artical-title-desc">{{ post.description }}</div>
       </li>
     {% endfor %}
