@@ -77,15 +77,15 @@
 
 .wayne-post-content p {
   margin-bottom: 40px;
-  line-height: 20px;
+  line-height: 30px;
 }
 
 .wayne-post-content p + ul {
-  margin-top: -36px;
+  margin-top: -26px;
 }
 
 .wayne-post-content p + blockquote {
-  margin-top: -36px;
+  margin-top: -26px;
 }
 
 .wayne-post-content ul {
@@ -96,7 +96,7 @@
 .wayne-post-content ul li {
   margin-bottom: 5px;
   list-style: disc;
-  line-height: 20px;
+  line-height: 30px;
 }
 
 .wayne-post-content blockquote {
